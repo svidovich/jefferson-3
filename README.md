@@ -1,6 +1,6 @@
-BUILT BY STEFAN VIEHBOCK: [github](https://github.com/sviehb "Stefan's Github")
+## BUILT BY STEFAN VIEHBOCK: [github](https://github.com/sviehb "Stefan's Github")
 
-ANY PATCHES TO BE MADE WILL MATCH STEFAN'S WORK DIRECTLY
+ANY PATCHES TO BE MADE WILL MATCH STEFAN'S WORK DIRECTLY -- Bugfixes applied occasionally!
 
 # jefferson-3
 JFFS2 filesystem extraction tool for python3 only environments
@@ -8,7 +8,7 @@ JFFS2 filesystem extraction tool for python3 only environments
 Installation
 ============
 ```bash
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 ```
 
 
