@@ -421,6 +421,8 @@ def dump_fs(fs, target):
                             os.makedirs(os.path.dirname(target_path))
                         with open(target_path, 'wb') as fd:
                             for inode in dirent.inodes:
+                                if type(inode.data) is str:
+                                    inode.data = str.encode(inode.data)
                                 fd.seek(inode.offset)
                                 fd.write(inode.data)
                     os.chmod(target_path, stat.S_IMODE(inode.mode))
